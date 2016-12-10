@@ -41,6 +41,6 @@ minecraft_server_properties:
   gamemode: 0
   allow-nether: true
   force-gamemode: false
-  generator-settings:
+  generator-settings: ''
   max-tick-time: 60000
   
