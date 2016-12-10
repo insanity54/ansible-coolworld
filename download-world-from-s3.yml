@@ -1,0 +1,13 @@
+---
+
+  - name: download niceworld from S3
+    command: s3cmd sync s3://grimtech.minecraft.niceworld/world/ /srv/minecraft/world/
+
+  - name: set world file permissions
+    file:
+      dest: /srv/minecraft/world
+      owner: "{{ minecraft_user }}"
+      group: "{{ minecraft_group }}"
+      mode: 0664
+      recurse: true
+    

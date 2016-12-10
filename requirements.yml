@@ -1,0 +1,9 @@
+---
+
+
+- name: bootstrap
+  src: insanity54.bootstrap
+- name: minecraft
+  src: benwebber.minecraft
+- name: s3cmd
+  src: kunik.s3cmd

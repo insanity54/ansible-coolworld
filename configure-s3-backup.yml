@@ -1,0 +1,10 @@
+---
+
+  - name: configure backup script
+    cron:
+      name: backup niceworld to s3
+      day: *
+      minute: 0
+      hour: 3
+      job: s3cmd sync /srv/minecraft/world/ s3://grimtech.minecraft.niceworld/world/
+    

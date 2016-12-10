@@ -1,0 +1,12 @@
+---
+
+- hosts: coolworld
+  vars_files:
+    - vars/public.yml
+    - vars/private.yml
+  roles:
+    - role: bootstrap
+    - role: s3cmd
+    - role: minecraft
+      minecraft_hook_before_start: "{{ playbook_dir }}/download-world-from-s3.yml"
+      minecraft_hook_after_start: "{{ playbook_dir }}/configure-s3-backup.yml"

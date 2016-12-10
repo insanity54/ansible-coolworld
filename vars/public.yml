@@ -1,0 +1,46 @@
+minecraft_version: latest
+minecraft_process_control: supervisor
+minecraft_ops:
+  - Grimtech
+  - insanity54
+  - plzupdatelwjgl
+minecraft_server_properties:
+  server-port: 25565
+  enable-rcon: false
+  motd: Some chilli for your \u00A7bNICEWORLD\u00A7r bath\!
+  use-native-transport: true
+  prevent-proxy-connections: false
+  level-seed:
+  max-build-height: 256
+  online-mode: true
+  generate-structures: true
+  white-list: false
+  spawn-animals: true
+  resource-pack:
+  view-distance: 10
+  level-name: world
+  allow-flight: false
+  spawn-npcs: true
+  server-ip:
+  server-port: 25565
+  max-world-size: 29999984
+  resource-pack-sha1:
+  network-compression-threshold: 256
+  max-players: 20
+  enable-command-block: false
+  hardcore: false
+  level-type: DEFAULT
+  snooper-enabled: false
+  pvp: true
+  announce-player-achievements: true
+  op-permission-level: 4
+  spawn-monsters: true
+  difficulty: 1
+  player-idle-timeout: 0
+  enable-query: true
+  gamemode: 0
+  allow-nether: true
+  force-gamemode: false
+  generator-settings:
+  max-tick-time: 60000
+  
