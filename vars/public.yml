@@ -24,7 +24,7 @@ minecraft_server_properties:
   server-ip: ''
   server-port: 25565
   max-world-size: 29999984
-  resource-pack-sha1:
+  resource-pack-sha1: ''
   network-compression-threshold: 256
   max-players: 20
   enable-command-block: false
